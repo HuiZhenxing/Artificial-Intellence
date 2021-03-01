@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_call"
+
+                android:title="天气"/>
+            <item
+                android:id="@+id/nav_friends"
+
+                android:title="步数" />
+            <item
+                android:id="@+id/nav_location"
+
+                android:title="扫一扫" />
+            <item
+                android:id="@+id/nav_mail"
+
+                android:title="拨号"/>
+            <!--<item-->
+                <!--android:id="@+id/nav_task"-->
+                <!--android:icon="@drrawable/nav_task"-->
+                <!--android:title="Tasks"/>-->
+        </group>
+    </menu>
